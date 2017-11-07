@@ -1,0 +1,10 @@
+C:\Users\Odmen\Desktop\Project\Client\Client\Client\bin\Debug\Client.exe.config
+C:\Users\Odmen\Desktop\Project\Client\Client\Client\bin\Debug\Client.exe
+C:\Users\Odmen\Desktop\Project\Client\Client\Client\bin\Debug\Client.pdb
+C:\Users\Odmen\Desktop\Project\Client\Client\Client\obj\Debug\Client.csprojResolveAssemblyReference.cache
+C:\Users\Odmen\Desktop\Project\Client\Client\Client\obj\Debug\Client.Form1.resources
+C:\Users\Odmen\Desktop\Project\Client\Client\Client\obj\Debug\Client.Properties.Resources.resources
+C:\Users\Odmen\Desktop\Project\Client\Client\Client\obj\Debug\Client.csproj.GenerateResource.Cache
+C:\Users\Odmen\Desktop\Project\Client\Client\Client\obj\Debug\Client.exe
+C:\Users\Odmen\Desktop\Project\Client\Client\Client\obj\Debug\Client.pdb
+C:\Users\Odmen\Desktop\Project\Client\Client\Client\obj\Debug\Client.Form2.resources

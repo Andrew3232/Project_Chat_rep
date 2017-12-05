@@ -16,7 +16,6 @@ C:\Users\Odmen\Documents\GitHub\Project_Chat_rep\Client\Client\obj\Release\Clien
 C:\Users\Odmen\Documents\GitHub\Project_Chat_rep\Client\Client\obj\Release\Client.pdb
 C:\Users\Odmen\Documents\GitHub\Project_Chat_rep\Client\Client\bin\Release\Client.exe
 C:\Users\Odmen\Documents\GitHub\Project_Chat_rep\Client\Client\bin\Release\Client.pdb
-C:\Users\Odmen\Documents\GitHub\Project_Chat_rep\Client\Client\obj\Release\Client.csprojResolveAssemblyReference.cache
 C:\Users\Odmen\Documents\GitHub\Project_Chat_rep\Client\Client\obj\Release\Client.Form1.resources
 C:\Users\Odmen\Documents\GitHub\Project_Chat_rep\Client\Client\obj\Release\Client.Form2.resources
 C:\Users\Odmen\Documents\GitHub\Project_Chat_rep\Client\Client\obj\Release\Client.Properties.Resources.resources

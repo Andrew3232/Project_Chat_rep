@@ -7,7 +7,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
 using System.Net;
 using System.Net.Sockets;
 using System.IO;
@@ -26,7 +25,7 @@ namespace Client
         {
             InitializeComponent();
 
-            richTextBox1.Enabled = false;
+            //richTextBox1.Enabled = false;
             richTextBox2.Enabled = false;
             button2.Enabled = false;
 
@@ -97,12 +96,21 @@ namespace Client
                     this.Invoke((MethodInvoker)delegate ()
                     {
                         richTextBox1.AppendText(Clear_message);
+                        richTextBox1.ScrollToCaret();
+                        //richTextBox1.AppendText("\n");
                     });
 
                 }
                 catch (Exception ex)
                 {
-
+                    /*
+                    MessageBox.Show("Error: " + ex.Message);
+                    if (th != null)
+                        th.Abort();
+                    if (Client != null)
+                        Client.Close();
+                    Application.Exit();
+                    */
                 }
             }
         }
@@ -120,6 +128,8 @@ namespace Client
                     th = new Thread(delegate () { RecvMessage(); });
                     th.Start();
                     //richTextBox2.Focus();
+                    button1.Enabled = false;
+                    textBox1.Enabled = false;
                 }
                 
             }
@@ -152,6 +162,11 @@ namespace Client
                 SendMessage("\n" + textBox1.Text + ": " + richTextBox2.Text + ";;;5");
                 richTextBox2.Clear();
             }
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -96,6 +96,7 @@
             // 
             this.richTextBox1.Location = new System.Drawing.Point(12, 122);
             this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.ReadOnly = true;
             this.richTextBox1.Size = new System.Drawing.Size(460, 182);
             this.richTextBox1.TabIndex = 5;
             this.richTextBox1.Text = "";
@@ -145,7 +146,7 @@
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(127, 22);
             this.exitToolStripMenuItem.Text = "Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
@@ -164,6 +165,7 @@
             this.label4.Size = new System.Drawing.Size(10, 13);
             this.label4.TabIndex = 9;
             this.label4.Text = ".";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // Form1
             // 
